@@ -4,3 +4,6 @@ function convertToArray<T>(input: T): T[]{
 }
 
 // arrow function
+const convertToArrayArrow = <T>(input: T): T[] => {
+  return [input]
+}
